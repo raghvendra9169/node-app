@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "<APP_NAME>"
-          ContainerPort: <SERVICE_PORT>
+          ContainerName: "node-app"
+          ContainerPort: 3000
